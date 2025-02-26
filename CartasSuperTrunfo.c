@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
+    //Super Trunfo Ads
     char estado1, estado2;
     char codigo1[4], codigo2[4];
     char nome_cidade1[100], nome_cidade2[100];
@@ -65,6 +66,17 @@ int main() {
 
 
     printf("\n=== Dados na Carta 2 ===\n");
+    printf("Estado: %c\n" estado2);
+    printf("Código da carta: %s\n", codigo2);
+    printf("Nome da cidade: %s\n", populacao2);
+    printf("População: %d habitantes\n", populacao2);
+    printf("Área: %.2f km²\n", area2);
+    printf("pib: %2.f\n", pib2);
+    printf("Pontos turísticos: %d\n", pontos_turisticos2);
+
+
+    return 0;
+}
     
 
     
