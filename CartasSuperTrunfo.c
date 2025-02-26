@@ -3,7 +3,7 @@
 int main() {
 //Super Trunfo Ads
 char estado1, estado2;
-char codigo1[4], codigo2[4];
+char codigo1[10], codigo2[10];
 char nome_cidade1[50], nome_cidade2[50];
 int populacao1, populacao2;
 float area1, area2;
@@ -16,7 +16,7 @@ printf("Estado (ex: AM, SP, RJ...): ");
 scanf(" %c", &estado1);
 
 printf("Código da Carta (A01): ");
-scanf("%s", &codigo1);
+scanf("%9s", &codigo1);
 
 printf("Nome da Cidade: ");
 scanf(" %s", &nome_cidade1);
@@ -41,7 +41,7 @@ printf("Estado (ex: AM, SP, RJ...): ");
 scanf(" %c", &estado2);
 
 printf("Código da Carta (A02): ");
-scanf("%s", &codigo2);
+scanf("%9s", &codigo2);
 
 printf("Nome da Cidade: ");
 scanf(" %s", &nome_cidade2);
@@ -89,4 +89,3 @@ return 0;
 
 
 }
-    
